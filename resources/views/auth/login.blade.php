@@ -11,13 +11,13 @@
         <h2 class="bold text-left">With</h2>
         <div class="row social-login">
             <div class="col-md-4 text-center">
-                <a href="/login/facebook" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-blue bg-hover-grey-salsa font-white bg-hover-white socicon-facebook tooltips" data-original-title="Facebook"></a>
+                <a href="{{ url('login/facebook') }}" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-blue bg-hover-grey-salsa font-white bg-hover-white socicon-facebook tooltips" data-original-title="Facebook"></a>
             </div>
             <div class="col-md-4 text-center">
-                <a href="/login/linkedin" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-green bg-hover-grey-salsa font-white bg-hover-white socicon-linkedin tooltips" data-original-title="Linkedin"></a>
+                <a href="{{ url('login/linkedin') }}" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-green bg-hover-grey-salsa font-white bg-hover-white socicon-linkedin tooltips" data-original-title="Linkedin"></a>
             </div>
             <div class="col-md-4 text-center">
-                <a href="/login/google" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-red bg-hover-grey-salsa font-white bg-hover-white socicon-google tooltips" data-original-title="Google"></a>
+                <a href="{{ url('login/google') }}" class="socicon-btn socicon-btn-circle socicon-lg socicon-solid bg-red bg-hover-grey-salsa font-white bg-hover-white socicon-google tooltips" data-original-title="Google"></a>
             </div>
         </div>
         <form class="login-form" action="{{ route('login') }}" method="post">

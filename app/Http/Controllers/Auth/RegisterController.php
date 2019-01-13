@@ -78,7 +78,7 @@ class RegisterController extends Controller
         $input = $request->all();
         $validator = $this->validator($input);
 
-        if($validator->validate()){
+        if($validator->passes()){
             $user = $this->create($input)->toArray();
             $user['link'] = str_random(30);
 
