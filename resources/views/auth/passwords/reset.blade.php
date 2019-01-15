@@ -30,7 +30,7 @@
                 <label for="password-confirm">Password Confirm</label>
             </div>
             <div class="form-actions">
-                <button type="submit" class="btn btn-primary btn-block">Reset password</button>
+                <button type="submit" class="btn btn-primary btn-lg mt-ladda-btn ladda-button btn-circle btn-block">Reset Password</button>
             </div>
         </form>
         <div class="text-center register-link"><h4>Back to <a href="{{ route('login') }}" class="text-success"><strong>Login!</strong></a></h4></div>

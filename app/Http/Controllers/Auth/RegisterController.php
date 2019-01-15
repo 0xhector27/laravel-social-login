@@ -85,8 +85,7 @@ class RegisterController extends Controller
             DB::table('user_activations')->insert(['user_id'=>$user['id'], 'token'=>$user['link']]);
             Mail::send('mail.activation', $user, function($message) use ($user) {
                 $message->to($user['email']);
-                $message->subject('socialplatform.com - Activation Code');
-
+                $message->subject('Confirm your account on Social');
             });
             return redirect()->to('login')->with('success', 'We sent activation code, please check your email');
         }

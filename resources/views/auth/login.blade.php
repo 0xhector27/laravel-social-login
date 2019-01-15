@@ -52,7 +52,7 @@
                 <label for="password">Password</label>
             </div>
             <div class="form-actions">
-                <button type="submit" class="btn green btn-block">Login</button>
+                <button type="submit" class="btn btn-success btn-lg mt-ladda-btn ladda-button btn-circle btn-block">Login</button>
             </div>
             <div class="form-actions">
                 <div class="pull-left">
