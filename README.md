@@ -22,7 +22,7 @@ Now, we can use gmail smtp server for email confirmation. In case of your gmail,
 
 ## Contacts
 
-* You can reach the me on `topstar51@outlook.com`
+* You can reach me on `topstar51@outlook.com`
 
 ## License
 
